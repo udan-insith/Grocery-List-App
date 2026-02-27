@@ -85,7 +85,7 @@ function deleteItem(e) {
     displayAlert("item removed", "danger")
     setBackToDefault()
     // remove from local storage
-    // removeFromLocalStorage(id)
+    removeFromLocalStorage(id)
 }
 
 // edit function
